@@ -23,7 +23,3 @@
 int Cell::GetDNA(){
     return this->DNA;
 }
-
-// ~Cell(){
-//     delete this;
-// }

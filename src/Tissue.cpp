@@ -108,13 +108,9 @@ void Tissue::SetTexture(){
     Radix* radix = new Radix(this,this->Count());
     Cell** sortedCells = radix->Sort();
 
-    //for(int i = 0; i < this->Count();i++){std::cout<<sortedCells[i]->GetDNA()<<" ";}
-    //std::cout<<"\n";
     int textureIndex = (this->Count() - 1) / 2;
 
     this->Texture = sortedCells[textureIndex];
-    //std::cout<<"Tissue size: "<<this->Count()<<" texture index: "<<textureIndex<<"\n";
-    //std::cout<<"Texture: "<<this->GetTexture()->GetDNA()<<"\n";
     delete [] sortedCells;
     delete radix;
 }

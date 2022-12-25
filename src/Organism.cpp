@@ -6,7 +6,9 @@ Organism::Organism(System** systems){
     this->Systems = systems;
 }
 
-void Organism::PrintOrganism(){
+void Organism::Print(){
+    std::cout<<endl;
+    std::cout<<"                    Organism            \n";
     for(System* system = this->Systems[0]; system != NULL; system = system->Next){
         for(Organ* organ = system->StartOrgan; organ != system->EndOrgan; organ = organ->Next){
             if(organ->GetIsBalanced())

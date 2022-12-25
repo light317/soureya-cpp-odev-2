@@ -10,7 +10,7 @@ class Organism{
         System** Systems;
     public:
         Organism(System** systems);
-        void PrintOrganism();
+        void Print();
 };
 
 

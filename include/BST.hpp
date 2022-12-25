@@ -19,7 +19,6 @@ class BST{
         BSTNode* DeleteNode(BSTNode*,int);
         BSTNode* InsertNode(BSTNode*,int);
         bool IsBalanced(BSTNode*);
-        void printTree(BSTNode *, std::string, bool);
 
 };
 

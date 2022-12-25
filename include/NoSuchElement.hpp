@@ -1,12 +1,5 @@
 
 
-/* 
- * File:   NoSuchElement.hpp
- * Author: HAKAN
- *
- * Created on November 1, 2022, 7:15 AM
- */
-
 #ifndef NOSUCHELEMENT_HPP
 #define NOSUCHELEMENT_HPP
 
@@ -20,5 +13,5 @@ public:
 };
 
 
-#endif /* NOSUCHELEMENT_HPP */
+#endif 
 

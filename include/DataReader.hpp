@@ -25,7 +25,6 @@ private:
 public:
     DataReader(std::string fileName);
     ~DataReader();
-    void Print();
     int GetCellCount();
     int GetTissueCount();
     int GetOrganCount();
